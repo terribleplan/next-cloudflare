@@ -9,6 +9,7 @@ This is pretty rough right now, but it works and can hopefully used to foster di
    1. `yarn && pushd packages/next-server && npm link && popd && pushd packages/next && npm link && npm link next-server && popd`
 1. Install this package to your project, and use my forked next
    1. `yarn add @terribleplan/next-cloudflare && npm link next`
+   2. Edit your `next.config.js` to have `target: 'unified',`.
 1. Build things
    1. `npx next build && npx next-cloudflare`
 
