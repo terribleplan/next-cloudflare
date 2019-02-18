@@ -4,11 +4,11 @@ This is pretty rough right now, but it works and can hopefully used to foster di
 
 ## Quickstart
 
-1. You must be using [my fork of next.js](https://github.com/terribleplan/next.js).
+1. Set up [my fork of next.js](https://github.com/terribleplan/next.js).
    1. `git clone https://github.com/terribleplan/next.js`
    1. `yarn && pushd packages/next-server && npm link && popd && pushd packages/next && npm link && npm link next-server && popd`
-1. Install this package to your project
-   1. `yarn add @terribleplan/next-cloudflare`
+1. Install this package to your project, and use my forked next
+   1. `yarn add @terribleplan/next-cloudflare && npm link next`
 1. Build things
    1. `npx next build && npx next-cloudflare`
 
